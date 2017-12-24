@@ -86,6 +86,9 @@ a {
 .pm-slider {
 	text-align: right;
 	margin-bottom: 100px;
+	background: radial-gradient(closest-side at 75% 45%, #fff, #EEEEEE);
+
+
 
 }
 .pm-slide-title {

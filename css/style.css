@@ -1,0 +1,471 @@
+/* These styles for ProductMan homework 09 */
+
+body{
+		background-color: #EEEEEE;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+
+
+/* Layout */
+.ba-container{
+	/* padding-left: 20px;
+	padding-right: 20px; */
+	max-width: 1200px;
+}
+
+/* Header */
+.pm-header {
+	margin-bottom: 105px;
+}
+
+/* logo */
+.pm-logo {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	display: inline-block;
+	color: #303030;
+	
+}
+
+.pm-logo:hover {
+	color: #e10011;
+	transition: .3s ease;
+}
+
+/* navigation */
+
+.pm-navlist {
+	list-style: none;
+	text-align: right;
+	
+}
+
+.pm-navitem {
+	display: inline-block;
+	
+}
+
+.pm-navlink:hover {
+	color: #e10011;
+	transition: .3s ease;
+
+}
+
+.pm-navlink {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+	color: #303030;
+	padding: 0 40px;
+
+}
+
+
+
+.pm-navtop {
+	display: inline-block;
+	float: right;
+	padding-top: 30px;
+}
+
+/* burger navigation */
+
+
+/* end burger navigation */
+
+
+
+/* Slider section */
+
+.pm-slider {
+	text-align: right;
+	margin-bottom: 100px;
+
+}
+.pm-slide-title {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 150px;
+	max-width: 615px;
+	text-align: right;
+	margin: 0;
+	color: #303030;
+
+}
+
+.pm-slider-img {
+	float: right;
+	padding-right: 120px;
+}
+
+.pm-slide-descript {
+	font-family: 'Roboto', sans-serif;
+	max-width: 615px;
+	text-align: right;
+	font-size: 24px;
+	line-height: 36px;
+	color: #303030;
+}
+
+.slide-showmore {
+	font-family: 'Roboto', sans-serif;
+	color: #e10011;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	max-width: 615px;
+
+}
+
+.slide-showmore:hover {
+	text-decoration: underline;
+	transition: .3s ease;
+
+}
+
+.clear {
+	clear: right;
+}
+
+.slide-change-controls {
+	margin-top: 85px;
+	text-align: center;
+
+}
+
+/* Featured product */
+
+.pm-featured {
+	background-color: #fff;
+	padding-top: 114px;
+	padding-bottom: 72px;
+		
+}
+
+.pm-featured__general-head {
+	max-width: 585px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.pm-featured__title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	color: #303030;
+	font-weight: 900;
+
+}
+
+.pm-featured__description {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #303030;
+	line-height: 24px;
+	margin-bottom: 78px;
+
+}
+
+/* Featured img */
+.pm-main-product {
+	max-width: 1060px;
+	font-size: 0;
+	margin: 0 70px 0 70px;
+
+}
+
+.pm-featured-img-list {
+	padding-left: 0;
+	list-style: none;
+
+}
+
+.pm-img-list-item {
+	display: inline-block;
+	position: relative;
+
+
+}
+
+.pm-list1, .pm-list3, .pm-list4{
+	margin-right: 36px;
+	overflow: hidden;
+}
+
+.pm-list1, .pm-list2 {
+	margin-bottom: 36px; 
+	overflow: hidden;
+}
+
+.pm-list-item__header1 {
+	font-family: 'Roboto';
+	font-size: 30px;
+	position: absolute;
+	left: 25px;
+	bottom: 101px;
+	color: #fff;
+	font-weight: 900;
+	opacity: 0;
+	transition: opacity .5s ease;
+	
+		
+}
+
+
+.pm-list-item__header2 {
+	font-family: 'Roboto';
+	font-size: 30px;
+	position: absolute;
+	color: #fff;
+	font-weight: 900;
+	left: 25px;
+	bottom: 39px;
+	border-bottom: 5px solid #fff;
+	padding-bottom: 16px;
+	opacity: 0;
+	transition: opacity .5s ease;
+	
+}
+
+
+
+.pm-img-list-item:hover {
+	background-color: #e10011;
+	border-radius: 5px;
+}
+
+.pm-img-list-item:hover img {
+	opacity: 0; 
+	transition: .3s ease;
+}
+
+.pm-img-list-item:hover span {
+	opacity: 1;
+}
+
+
+
+/* Productman news */
+
+.pm-news {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 113px;
+}
+
+.pm-news__general-head {
+	max-width: 631px;
+	margin: 0 auto;
+	/* text-align: center; */
+
+}
+
+.pm-news__title {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #303030;
+	margin: 0;
+	font-weight: 900;
+}
+
+.pm-news__description {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #303030;
+	margin-bottom: 42px;
+}
+
+/* Producr news form */
+
+.pm-input-email {
+	height: 70px;
+	width: 467px;
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 600;
+	color: #979797;
+	padding-left: 60px;
+	outline: none;
+
+}
+
+.pm-input-email[placeholder]:focus {
+	font-family: 'Raleway', sans-serif;
+	color: #303030;
+	
+
+}
+
+
+.pm-label {
+	position: relative;
+}
+
+label:before {
+	content: "\f003";
+	font-family: 'FontAwesome';
+	position: absolute;
+/* 	top: 1px; */
+	left: 20px;
+	transform: translateY(130%);
+	color: #979797;
+	font-size: 18px;
+
+	
+}
+
+label:after {
+	content: '\f0da';
+	font-family: 'FontAwesome';
+	position: absolute;
+	right: 50px;
+	top: 1px;
+	color: #fff;
+	font-size: 18px;
+}
+/* .fa, .fa-envelope-o {
+	color: #979797;
+	position: relative;
+	left: 50px;
+} */
+
+.pm-submit {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	background-color: #e10011;
+	cursor: pointer;
+	height: 70px;
+	width: 209px;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	position: relative;
+	right: 5px;
+	top: 2px;
+	outline: none;
+
+}
+
+
+/* Footer */
+
+.ba-footer {
+	text-align: center;
+}
+
+.pm-social-link {
+	padding-left: 0;
+	list-style: none;
+	text-align: center;
+	margin-bottom: 61px;
+
+}
+
+.pm-social-link__item {
+	display: inline-block;
+	font-size: 34px;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	padding: 15px 20px;
+	margin: 0 10px;
+
+}
+
+.pm-social-link__item a {
+	color: #979797;
+
+}
+
+.pm-social-link__item  a:hover   {
+	color: #e10011;
+}
+
+.ba-footer-copyright {
+	font-family: 'Raleway', sans-serif;
+	color: #979797;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.ba-footer-copyright:before {
+	content: "\f1f9";
+	font-family: 'FontAwesome';
+	color: #979797;
+}
+
+
+.ba-footer-copyright a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
